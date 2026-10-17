@@ -1,0 +1,39 @@
+# Python virtual environments
+.venv/
+venv/
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local environment settings and secrets
+.env
+.env.*
+!.env.example
+
+# Raw downloaded dataset and Hugging Face cache
+data/raw/
+**/.cache/
+
+# Derived datasets: retain small reproducibility manifests
+data/processed/*
+!data/processed/.gitkeep
+!data/processed/*manifest*.json
+
+# Training logs, checkpoints, and generated results
+logs/*
+!logs/.gitkeep
+results/*
+!results/.gitkeep
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+
+# Editor and operating-system files
+.vscode/
+.DS_Store
+Thumbs.db
