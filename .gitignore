@@ -37,3 +37,5 @@ checkpoints/
 .vscode/
 .DS_Store
 Thumbs.db
+# Cached token-ID arrays (large, regenerable; stay on Drive)
+data/tokenized/
