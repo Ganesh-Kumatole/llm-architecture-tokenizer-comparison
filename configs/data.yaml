@@ -1,0 +1,19 @@
+# Data + normalization policy shared by ALL tokenizers (Blueprint §4.1-4.2, Appendix A).
+data:
+  source_manifest: data/processed/split_manifest.json
+  text_column: text
+  splits:
+    train: data/processed/train.parquet
+    validation: data/processed/validation.parquet
+    test: data/processed/test.parquet
+  max_context_tokens: 128
+
+normalization:
+  version: norm-v1
+  unicode_form: NFC
+  newline: LF
+  lowercase: false
+  strip: false
+  repair_mojibake: true   # cp1252-mojibake of UTF-8 punctuation found in the prepared data
+
+special_tokens: ["<pad>", "<unk>", "<bos>", "<eos>"]   # list order defines IDs 0-3

@@ -1,0 +1,4 @@
+type: word
+max_vocab: 10000      # includes the 4 special tokens; pilot value (Blueprint §4.3), freeze after coverage check
+min_count: 1
+artifact_dir: artifacts/tokenizers/word
