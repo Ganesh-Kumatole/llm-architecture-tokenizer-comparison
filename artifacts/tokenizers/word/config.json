@@ -1,0 +1,43 @@
+{
+  "kind": "word",
+  "vocab_size": 10000,
+  "special_tokens": [
+    "<pad>",
+    "<unk>",
+    "<bos>",
+    "<eos>"
+  ],
+  "special_ids": {
+    "pad": 0,
+    "unk": 1,
+    "bos": 2,
+    "eos": 3
+  },
+  "normalization": {
+    "version": "norm-v1",
+    "unicode_form": "NFC",
+    "newline": "LF",
+    "lowercase": false,
+    "strip": false,
+    "repair_mojibake": true
+  },
+  "params": {
+    "max_vocab": 10000,
+    "min_count": 1,
+    "pretokenizer_regex": " ?\\w+| ?[^\\w\\s]|\\s+"
+  },
+  "provenance": {
+    "source_split": "train",
+    "train_file_sha256": "c5ff5349ff57b30b593300c03e96f267d8ef7e17d5ec8698e7f414cc7e21e9f2",
+    "split_manifest_sha256": "465c969ec5f13cd859c7021a69123f02b9232de0b63db1939602a83a1c708fa6",
+    "normalization_code_sha256": "a9d6932a3b1c72c61d2af9b8916fd0545486207353a1be560f5b68b859291a9e",
+    "fit_started_at_utc": "2026-10-20T19:41:18.083199+00:00",
+    "n_fit_stories": 1703206,
+    "n_distinct_pretokens_in_fit": 66685,
+    "fit_token_coverage": 0.9979057644735921
+  },
+  "environment": {
+    "python": "3.13.16"
+  },
+  "vocab_sha256": "632e710a637d71f0ae4b79d34815fac37c13c12187c358b8adc41b10e9ee6b72"
+}

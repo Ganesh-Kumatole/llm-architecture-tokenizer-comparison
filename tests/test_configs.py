@@ -14,7 +14,7 @@ def test_data_config_matches_code_contract():
     assert d["data"]["max_context_tokens"] == 128
 
 
-@pytest.mark.parametrize("name", ["character", "word"])
+@pytest.mark.parametrize("name", ["character", "word", "bpe"])
 def test_tokenizer_configs_build(name):
     d = load_yaml(ROOT / "configs" / "data.yaml")
     t = load_yaml(ROOT / "configs" / f"tokenizer_{name}.yaml")

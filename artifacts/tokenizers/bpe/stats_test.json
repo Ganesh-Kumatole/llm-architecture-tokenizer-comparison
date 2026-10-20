@@ -1,0 +1,17 @@
+{
+  "tokenizer": "bpe",
+  "split": "test",
+  "vocab_size": 8000,
+  "num_stories": 89441,
+  "total_tokens": 19396247,
+  "total_characters": 79442441,
+  "unknown_token_rate": 0.0,
+  "chars_per_token": 4.095763525799605,
+  "seq_length_p50": 187.0,
+  "seq_length_p90": 345.0,
+  "seq_length_p99": 643.0,
+  "seq_length_max": 1251,
+  "parquet_sha256": "64d78791e41747fd8e29e9b021babacc737da33d58d8f4172758dfe03e5879cb",
+  "normalization_version": "norm-v1",
+  "computed_at_utc": "2026-10-20T19:37:26.655107+00:00"
+}

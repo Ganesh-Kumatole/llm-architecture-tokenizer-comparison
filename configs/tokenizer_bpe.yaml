@@ -1,0 +1,4 @@
+type: bpe
+target_vocab_size: 8000
+min_frequency: 2
+artifact_dir: artifacts/tokenizers/bpe

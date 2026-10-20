@@ -1,0 +1,53 @@
+{
+  "kind": "bpe",
+  "vocab_size": 8000,
+  "target_vocab_size": 8000,
+  "special_tokens": [
+    "<pad>",
+    "<unk>",
+    "<bos>",
+    "<eos>"
+  ],
+  "special_ids": {
+    "pad": 0,
+    "unk": 1,
+    "bos": 2,
+    "eos": 3
+  },
+  "normalization": {
+    "version": "norm-v1",
+    "unicode_form": "NFC",
+    "newline": "LF",
+    "lowercase": false,
+    "strip": false,
+    "repair_mojibake": true
+  },
+  "params": {
+    "target_vocab_size": 8000,
+    "min_frequency": 2,
+    "id_offset": 4,
+    "algorithm": "huggingface-tokenizers-byte-level-bpe"
+  },
+  "provenance": {
+    "source_split": "train",
+    "train_file": "data/processed/train.parquet",
+    "train_file_sha256": "c5ff5349ff57b30b593300c03e96f267d8ef7e17d5ec8698e7f414cc7e21e9f2",
+    "split_manifest_sha256": "465c969ec5f13cd859c7021a69123f02b9232de0b63db1939602a83a1c708fa6",
+    "normalization_version": "norm-v1",
+    "normalization_code_sha256": "a9d6932a3b1c72c61d2af9b8916fd0545486207353a1be560f5b68b859291a9e",
+    "fitted_at_utc": "2026-10-20T19:20:02.701111+00:00",
+    "python_version": "3.13.16",
+    "tokenizers_version": "0.23.3",
+    "pyarrow_version": "23.0.1",
+    "yaml_version": "6.0.3",
+    "n_fit_stories": 1703206,
+    "actual_vocab_size": 8000,
+    "fit_elapsed_seconds": 747.37
+  },
+  "environment": {
+    "python": "3.13.16",
+    "tokenizers": "0.23.3"
+  },
+  "vocab_sha256": "64fce8b17c13a73b90184711101bed6b5831e284369c5c15bc599b584d30e00b",
+  "tokenizer_json_sha256": "af42e1b342abcd9d9ffa196dcb22685586e1a0201836562baad6e903790878a7"
+}

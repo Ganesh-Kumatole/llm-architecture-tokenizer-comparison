@@ -1,0 +1,17 @@
+{
+  "tokenizer_type": "word",
+  "split": "test",
+  "vocab_size": 10000,
+  "num_stories": 89441,
+  "total_tokens": 19216068,
+  "total_characters": 79442441,
+  "unk_rate": 0.0021083397498385206,
+  "chars_per_token": 4.134167354112194,
+  "seq_length_p50": 185.0,
+  "seq_length_p90": 342.0,
+  "seq_length_p99": 639.0,
+  "seq_length_max": 1115,
+  "source_sha256": "64d78791e41747fd8e29e9b021babacc737da33d58d8f4172758dfe03e5879cb",
+  "normalization_version": "norm-v1",
+  "statistics_source": "verified token-cache metadata"
+}
